@@ -1,0 +1,184 @@
+/* affects everything, gets rid of little border on top */
+*
+{
+   margin: 0px;
+}
+
+.gwd-body
+{
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  background-color: transparent;
+}
+
+
+.gwd-body
+{
+  width: 1000px;
+  height: 100%;
+  position: absolute;
+  background: purple;
+  background-image: url("http://puu.sh/f1Y3v/b5b2a9b15f.jpg");
+  margin-left:auto;
+  margin-right:auto;
+  left: 11%;
+}
+
+.header
+{
+  width: 100%;
+  height: 150px;
+  right: 0%;
+  position: relative !important;
+  background-color: #0042A3;
+  z-index: 0;
+  border-bottom: 5px ridge #292929;
+  border-left: 5px ridge #292929;
+  border-right: 5px ridge #292929;/*do we want the right border?*/
+  color: #66CCFF;
+}
+
+.title
+{
+  width: 60%;
+  top: 25%;
+  left: 33.33%;
+  position: relative;
+  font-size: 250%;
+  overflow-wrap: true;
+}
+
+.navbar
+{
+  width:190px;  
+  height:auto;
+  margin-left:0px;
+  float:left;
+}
+
+.navbar li
+{
+  list-style: none;
+  margin: 0px;
+  border-bottom: 1px #000088 solid;
+  text-align: left;
+}
+
+.navbar li a
+{
+display: block;
+padding: 8px 10px 8px 10px;
+text-decoration: none;
+  color: #0000CC;
+}
+
+.navbar li p
+{
+display: block;
+padding: 16px 10px 0px 10px;
+}
+
+.navbar li a:link { 
+border-left: 3px #000088 solid;
+color: #000;
+font-size: 20px}
+
+.navbar li a:visited { 
+border-left: 3px #fff solid;
+color: #013ADF; }
+
+.navbar li a:hover
+{
+font-weight: bold; 
+background: #B8DBFF;
+border-left: 3px #3366FF solid;
+color: #29296A;
+}
+.navbar ul
+{
+margin-left: 0;
+padding-left: 0;
+list-style-type: none;
+}
+
+
+
+.info
+{
+  width: 87%;
+  left: 22%;
+  height: 110%;
+  bottom: 10%
+  top: 0%;
+  position: relative;
+  background: rgba(190,190,200,0.5);
+}
+
+.infoTitle
+{
+  top: 20px;
+  left: -5%;
+  position: relative;
+  font-size: 200%;
+  width: 100%;
+}
+
+.vid
+{
+  top: 40px;
+  left: -12%;
+  width: 75%;
+  height: 375px;
+  position: relative;
+}
+
+
+.homeworkTitle
+{
+  top: 65px;
+  left: 6%;
+  width: 50%;
+  font-size: 120%;
+  position: relative;
+}
+
+.homeworkText
+{
+  position: relative;
+  font-size: 90%;
+  left: 20px;
+}
+
+.worksheetTitle
+{
+  top: 20px;
+  position: relative;
+}
+
+
+.worksheetText
+{
+  position: relative;
+  font-size: 90%;
+  left: 5px;
+}
+
+.buttons
+{
+  position: absolute;
+  bottom: -12%;
+  width: 60%;
+}
+
+.week
+{
+  position: relative;
+  width: 96%;
+  height: 40px;
+  background-color: #DAECFF;
+  left: 35%;
+  text-align: center;
+  vertical-align: center;
+  padding: 5px;
+}
+
