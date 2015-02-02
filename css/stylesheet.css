@@ -163,22 +163,17 @@ list-style-type: none;
   left: 5px;
 }
 
-.buttons
+.prev
 {
   position: absolute;
-  bottom: -12%;
-  width: 60%;
+  bottom: 30px;
+  left: 10%;
 }
 
-.week
+.next
+
 {
-  position: relative;
-  width: 96%;
-  height: 40px;
-  background-color: #DAECFF;
-  left: 35%;
-  text-align: center;
-  vertical-align: center;
-  padding: 5px;
+  position: absolute;
+  bottom: 30px;
+  right: 10%;
 }
-
