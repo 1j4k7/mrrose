@@ -101,8 +101,6 @@ padding-left: 0;
 list-style-type: none;
 }
 
-
-
 .info
 {
   width: 87%;
@@ -160,7 +158,12 @@ list-style-type: none;
 {
   position: relative;
   font-size: 90%;
-  left: 5px;
+  left: 20px;
+}
+
+.worksheetTitle
+{
+  position: relative;
 }
 
 .prev
