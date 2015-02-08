@@ -17,7 +17,6 @@
   width: 1000px;
   height: 100%;
   position: absolute;
-  background: purple;
   background-image: url("http://puu.sh/f1Y3v/b5b2a9b15f.jpg");
   margin-left:auto;
   margin-right:auto;
@@ -103,25 +102,24 @@ list-style-type: none;
 
 .info
 {
-  width: 78%;
-  left: 22%;
-  bottom: 10%;
-  top: 20px;
   position: relative;
+  left: 225px;
+  width: 720px;
+  padding: 20px;
   background: rgba(190,190,200,0.5);
 }
 
 .infoTitle
 {
   position: relative;
-  top: 20px;
-  font-size: 200%;
-  width: 78%;
+  width: 500px;
+  font-size: 30px;
+  padding-left: 150px;
 }
 
 .infoText
 {
   position: relative;
-  width: 100%;
-  padding-bottom: 20px;
+  width: 500px;
+  padding-left: 175px;
 }
