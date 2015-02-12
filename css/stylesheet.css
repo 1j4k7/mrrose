@@ -4,6 +4,11 @@
    margin: 0px;
 }
 
+.html
+{
+  height: auto;
+}
+
 .gwd-body
 {
   -webkit-transform-style: preserve-3d;
@@ -103,12 +108,10 @@ list-style-type: none;
 
 .info
 {
+  position: relative;
   width: 87%;
   left: 22%;
-  height: 110%;
-  bottom: 10%
-  top: 0%;
-  position: relative;
+  height: 120%;
   background: rgba(190,190,200,0.5);
 }
 
@@ -133,11 +136,11 @@ list-style-type: none;
 
 .homeworkTitle
 {
+  position: relative;
   top: 65px;
   left: 6%;
   width: 50%;
   font-size: 120%;
-  position: relative;
 }
 
 .homeworkText
@@ -149,7 +152,7 @@ list-style-type: none;
 
 .worksheetTitle
 {
-  top: 20px;
+  top: 10px;
   position: relative;
 }
 
@@ -161,16 +164,11 @@ list-style-type: none;
   left: 20px;
 }
 
-.worksheetTitle
-{
-  position: relative;
-}
-
 .prev
 {
   position: absolute;
-  bottom: 30px;
   left: 10%;
+  bottom: 30px;
 }
 
 .next
