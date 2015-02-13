@@ -71,26 +71,30 @@
 
 .navbar li a
 {
-display: block;
-padding: 8px 10px 8px 10px;
-text-decoration: none;
+  display: block;
+  padding: 8px 10px 8px 10px;
+  text-decoration: none;
   color: #0000CC;
 }
 
 .navbar li p
 {
-display: block;
-padding: 16px 10px 0px 10px;
+  display: block;
+  padding: 16px 10px 0px 10px;
 }
 
-.navbar li a:link { 
-border-left: 3px #000088 solid;
-color: #000;
-font-size: 20px}
+.navbar li a:link
+{ 
+  border-left: 3px #000088 solid;
+  color: #000;
+  font-size: 20px
+}
 
-.navbar li a:visited { 
-border-left: 3px #fff solid;
-color: #013ADF; }
+.navbar li a:visited
+{ 
+  border-left: 3px #fff solid;
+  color: #013ADF;
+}
 
 .navbar li a:hover
 {
