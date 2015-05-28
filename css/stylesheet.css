@@ -1,4 +1,4 @@
-/* affects everything, gets rid of little border on top */
+/* styles all lecture pages */
 *
 {
    margin: 0px;
@@ -22,8 +22,8 @@
   width: 1000px;
   height: 100%;
   position: absolute;
-  background: purple;
-  background-image: url("http://puu.sh/f1Y3v/b5b2a9b15f.jpg");
+  background-image: url("http://mrrose.mbhs.edu/background.jpg");
+  background-attachment: fixed;
   margin-left:auto;
   margin-right:auto;
   left: 11%;
